@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<ScenesCollection>
+	<Scenes>
+		<Scene>
+			<Id>scene1</Id>
+			<SceneImage>cena1</SceneImage>
+		</Scene>
+		<Scene>
+			<Id>scene2</Id>
+			<SceneImage>cena2</SceneImage>
+		</Scene>
+	  <Scene>
+	    <Id>rodoviariaCidadeInterior</Id>
+	    <SceneImage>rodoviariaCidadeInterior</SceneImage>
+	  </Scene>
+	</Scenes>
+</ScenesCollection>

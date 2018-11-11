@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DialoguesCollection>
+	<Dialogues>
+
+    <!-- Parte 1 -->
+	  <Dialog>
+			<Id>primeiroDialogo</Id>
+			<Message>José as dores estão aumentando...!!!</Message>
+			<IdScene>rodoviariaCidadeInterior</IdScene>
+			<IdCharacter>mariaGravida</IdCharacter>
+	    <NextDialog>
+	      <value>dialogoRodoviaria</value>
+	    </NextDialog>
+		</Dialog>
+
+	  <Dialog>
+	    <Id>dialogoRodoviaria</Id>
+	    <Message>Respire fundo meu amor...</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>jose</IdCharacter>
+      <NextDialog>
+        <value>dialogoRodoviaria1</value>
+      </NextDialog>
+	  </Dialog>
+
+	  <Dialog>
+	    <Id>dialogoRodoviaria1</Id>
+	    <Message>Acho que não vai dar tempo de chegar lá em Curitiba, o que vamos fazer?</Message>
+	    <NextDialog>
+	      <value>dialogoRodoviaria2</value>
+	    </NextDialog>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>mariaGravida</IdCharacter>
+	  </Dialog>
+
+	  <Dialog>
+	    <Id>dialogoRodoviaria2</Id>
+	    <Message>E agora, vou procurar uma carona para nós, ou arrisco esperar o ônibus?</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>jose</IdCharacter>
+	    <NextDialog>
+	      <value>dialogoRodoviariaOp1</value>
+	      <value>dialogoRodoviariaOp2</value>
+	    </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>dialogoRodoviariaOp1</Id>
+	    <Message>Procurar carona!</Message>
+	    <NextDialog>
+	      <value>procurarCarona</value>
+	    </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>dialogoRodoviariaOp2</Id>
+	    <Message>Esperar ônibus!</Message>
+	    <NextDialog>
+	      <value>dialogoRodoviaria3</value>
+	    </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>dialogoRodoviaria3</Id>
+	    <Message>Amooor!!! Aah!! ESTOUROU A BOLSA!!!</Message>
+	    <NextDialog>
+	      <value>dialogoRodoviaria4</value>
+	    </NextDialog>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>mariaGravida</IdCharacter>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>dialogoRodoviaria4</Id>
+	    <Message>Maria?!?! POR FAVOR ALGUÉM NOS AJUDE!!!</Message>
+	    <NextDialog>
+	      <value>dialogoRodoviaria5</value>
+	    </NextDialog>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>jose</IdCharacter>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>dialogoRodoviaria5</Id>
+	    <Message>Sou enfermeiro, posso ajudar!</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>enfermeiroRodoviaria</IdCharacter>
+      <NextDialog>
+        <value>dialogoRodoviaria6</value>
+      </NextDialog>
+	  </Dialog>
+
+    <Dialog>
+      <Id>dialogoRodoviaria6</Id>
+      <Message>Finalmente...</Message>
+      <IdScene>rodoviariaCidadeInterior</IdScene>
+      <IdCharacter>mariaBebe</IdCharacter>
+      <NextDialog>
+        <value>dialogoRodoviaria7</value>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoRodoviaria7</Id>
+      <Message>Você preferiu ficar ao lado de sua esposa. As pessoas que estavam na rodoviária correram para perto de vocês, algumas curiosas, outras para admirar o bebê que acabara de nascer. Melchior, que estava nos bancos ao lado, ajudou dando o cobertor que levava para a viagem para cobrir o bebê. Gaspar que esperava o ônibus para ir para Curitiba era também um enfermeiro especializado em obstetrícia. Baltazar o motorista do ônibus acabou ficando encarregado de disponibilizar os materiais para o parto do menino Jesus. </Message>
+      <IdScene>presepioRodoviaria</IdScene>
+    </Dialog>
+    
+    
+
+
+	  <!-- Parte 2 -->
+
+
+    <Dialog>
+      <Id>procurarCarona</Id>
+      <Message>Não posso deixar uma mulher grávida esperando ônibus, eu levo vocês.</Message>
+      <IdScene>rodoviariaCidadeInterior</IdScene>
+      <IdCharacter>jose</IdCharacter>
+      <NextDialog>
+        <value>dialogoCarona1</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoCarona1</Id>
+      <Message>José, grrrrr!! Está quase na hora! </Message>
+      <IdScene></IdScene>
+      <IdCharacter>mariaGravida</IdCharacter>
+      <NextDialog>
+        <value>dialogoCarona2</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoCarona2</Id>
+      <Message>Você acha que dá tempo de chegarmos.</Message>
+      <IdScene></IdScene>
+      <IdCharacter>jose</IdCharacter>
+      <NextDialog>
+        <value>dialogoCarona3</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoCarona3</Id>
+      <Message>Não falta muito não, José.</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoCarona4</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoCarona4</Id>
+      <Message>Não sei meu amor. Eu acho que aguento.</Message>
+      <IdScene></IdScene>
+      <IdCharacter>mariaGravida</IdCharacter>
+      <NextDialog>
+        <NextDialog>
+          <value>dialogoCarona5</value>
+        </NextDialog>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoCarona5</Id>
+      <Message></Message>
+      <IdScene></IdScene>
+      <IdCharacter>mariaGravida</IdCharacter>
+      <NextDialog>
+        <NextDialog>
+          <value>dialogoCaronaOp1</value>
+          <value>dialogoCaronaOp2</value>
+        </NextDialog>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoCaronaOp1</Id>
+      <Message>Pedir para que o motorista pare na estrada.</Message>
+      <NextDialog>
+        <value>finalDialogoCarona</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoCaronaOp2</Id>
+      <Message>Tentar chegar em Curitiba.</Message>
+      <NextDialog>
+        <value>dialogoCuritiba</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>finalDialogoCarona</Id>
+      <Message></Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoFazenda</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoFazenda</Id>
+      <Message>E aí amigo, aconteceu alguma coisa com o ônibus?</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoFazenda1</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoFazenda1</Id>
+      <Message>Tem uma passageira que está com dores de parto e não temos como prosseguir viagem com ela assim.</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoFazenda2</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoFazenda3</Id>
+      <Message>Minha casa é pequena, mas tem um espaço lá no alpendre, eles podem passar a noite aqui.</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoFazenda4</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoFazenda4</Id>
+      <Message>Agradeço sua ajuda, aceitamos sim.</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoFazenda5</value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>dialogoFazenda5</Id>
+      <Message>Joséeeeeee, a bolsa estourou!</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value>dialogoFazenda6</value>
+      </NextDialog>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoFazenda6</Id>
+      <Message>deixe-me ajudá-los.</Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+      <NextDialog>
+        <value></value>
+      </NextDialog>
+    </Dialog>
+
+    <Dialog>
+      <Id>finalDialogoFazenda</Id>
+      <Message></Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+    </Dialog>
+    
+    <Dialog>
+      <Id>dialogoCuritiba</Id>
+      <Message></Message>
+      <IdScene></IdScene>
+      <IdCharacter></IdCharacter>
+    </Dialog>
+    
+	</Dialogues>
+</DialoguesCollection>

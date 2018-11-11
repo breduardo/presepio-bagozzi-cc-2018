@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DialoguesCollection>
+	<Dialogues>
+
+    <!-- Parte 1 -->
+	  <Dialog>
+			<Id>primeiroDialogo</Id>
+			<Message>José as dores estão aumentando...!!!</Message>
+			<IdScene>rodoviariaCidadeInterior</IdScene>
+			<IdCharacter>mariaGravida</IdCharacter>
+	    <NextDialog>
+	      <value>segundoDialogo</value>
+	    </NextDialog>
+		</Dialog>
+
+	  <Dialog>
+	    <Id>segundoDialogo</Id>
+	    <Message>Respire fundo meu amor...</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>jose</IdCharacter>
+      <NextDialog>
+        <value>terceiroDialogo</value>
+      </NextDialog>
+	  </Dialog>
+
+	  <Dialog>
+	    <Id>terceiroDialogo</Id>
+	    <Message>Acho que não vai dar tempo de chegar lá em Curitiba, o que vamos fazer?</Message>
+	    <NextDialog>
+	      <value>quartoDialogo</value>
+	    </NextDialog>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>mariaGravida</IdCharacter>
+	  </Dialog>
+
+	  <Dialog>
+	    <Id>quartoDialogo</Id>
+	    <Message>E agora, vou procurar uma carona para nós, ou arrisco esperar o ônibus?</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>jose</IdCharacter>
+	    <NextDialog>
+	      <value>quartoDialogoOp1</value>
+	      <value>quartoDialogoOp2</value>
+	    </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>quartoDialogoOp1</Id>
+	    <Message>Procurar carona!</Message>
+	    <NextDialog>
+	      <value>quintoDialogo</value>
+	    </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>quartoDialogoOp2</Id>
+	    <Message>Esperar ônibus!</Message>
+	    <NextDialog>
+	      <value>quintoDialogo</value>
+	    </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>quintoDialogo</Id>
+	    <Message>Amooor!!! Aah!! ESTOUROU A BOLSA!!!</Message>
+	    <NextDialog>
+	      <value>sextoDialogo</value>
+	    </NextDialog>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>mariaGravida</IdCharacter>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>sextoDialogo</Id>
+	    <Message>Maria?!?! POR FAVOR ALGUÉM NOS AJUDE!!!</Message>
+	    <NextDialog>
+	      <value>setimoDialogo</value>
+	    </NextDialog>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>jose</IdCharacter>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>setimoDialogo</Id>
+	    <Message>Sou enfermeiro, posso ajudar!</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>enfermeiroRodoviaria</IdCharacter>
+      <NextDialog>
+        <value>oitavoDialogo</value>
+      </NextDialog>
+	  </Dialog>
+    
+	  <Dialog>
+	    <Id>oitavoDialogo</Id>
+	    <Message>Nasceu, verificar as imagens para os bebes, 3 reis magos e os demais figurantes para a cena final do primeiro caminho.</Message>
+	    <IdScene>rodoviariaCidadeInterior</IdScene>
+	    <IdCharacter>enfermeiroRodoviaria</IdCharacter>
+	  </Dialog>
+    
+    
+
+
+	  <!-- Parte 2 -->
+    
+	</Dialogues>
+</DialoguesCollection>

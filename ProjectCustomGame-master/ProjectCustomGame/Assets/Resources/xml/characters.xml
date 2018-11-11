@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<CharactersCollection>
+	<Characters>
+		<Character>
+			<Id>mariaGravida</Id>
+			<Name>Maria</Name>
+			<CharacterImage>mariaGravida</CharacterImage>
+		</Character>
+		<Character>
+			<Id>jose</Id>
+			<Name>José</Name>
+			<CharacterImage>jose</CharacterImage>
+		</Character>
+	  <Character>
+	    <Id>enfermeiroRodoviaria</Id>
+	    <Name>Enfermeiro</Name>
+	    <CharacterImage>enfermeiroRodoviaria</CharacterImage>
+	  </Character>
+  </Characters>
+</CharactersCollection>
