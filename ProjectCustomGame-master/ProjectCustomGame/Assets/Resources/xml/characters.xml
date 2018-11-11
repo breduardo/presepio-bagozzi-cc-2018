@@ -2,20 +2,49 @@
 
 <CharactersCollection>
 	<Characters>
-		<Character>
-			<Id>mariaGravida</Id>
-			<Name>Maria</Name>
-			<CharacterImage>mariaGravida</CharacterImage>
-		</Character>
+    
+    <Character>
+      <Id>mariaGravida</Id>
+      <Name>Maria</Name>
+      <CharacterImage>mariaGravida</CharacterImage>
+    </Character>
+    
+    <Character>
+      <Id>mariaBebe</Id>
+      <Name>Maria</Name>
+      <CharacterImage>mariaBebe</CharacterImage>
+    </Character>
+    
 		<Character>
 			<Id>jose</Id>
 			<Name>José</Name>
-			<CharacterImage>jose</CharacterImage>
+			<CharacterImage>jose1</CharacterImage>
 		</Character>
+    
 	  <Character>
 	    <Id>enfermeiroRodoviaria</Id>
 	    <Name>Enfermeiro</Name>
 	    <CharacterImage>enfermeiroRodoviaria</CharacterImage>
 	  </Character>
+
+    <Character>
+      <Id>motoristaBaltazar</Id>
+      <Name>Baltazar</Name>
+      <CharacterImage>motorista</CharacterImage>
+    </Character>
+
+    <Character>
+      <Id>melchior</Id>
+      <Name>Fazendeiro</Name>
+      <CharacterImage>senior</CharacterImage>
+    </Character>
+    
+    <Character>
+      <Id>gaspar</Id>
+      <Name>Fazendeiro</Name>
+      <CharacterImage>fazendeiro</CharacterImage>
+    </Character>
+    
+    
   </Characters>
 </CharactersCollection>

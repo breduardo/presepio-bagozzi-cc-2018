@@ -2,17 +2,34 @@
 
 <ScenesCollection>
 	<Scenes>
-		<Scene>
-			<Id>scene1</Id>
-			<SceneImage>cena1</SceneImage>
-		</Scene>
-		<Scene>
-			<Id>scene2</Id>
-			<SceneImage>cena2</SceneImage>
-		</Scene>
 	  <Scene>
 	    <Id>rodoviariaCidadeInterior</Id>
 	    <SceneImage>rodoviariaCidadeInterior</SceneImage>
 	  </Scene>
+    <Scene>
+      <Id>presepioRodoviaria</Id>
+      <SceneImage>presepio1</SceneImage>
+    </Scene>
+    
+    <Scene>
+      <Id>quartoHospital</Id>
+      <SceneImage>quartohospital1</SceneImage>
+    </Scene>
+
+    <Scene>
+      <Id>estradaFazenda</Id>
+      <SceneImage>estradaFazenda</SceneImage>
+    </Scene>
+    
+    <Scene>
+      <Id>fazenda</Id>
+      <SceneImage>fazendaCena</SceneImage>
+    </Scene>
+    
+    <Scene>
+      <Id>estradaFazenda2</Id>
+      <SceneImage>fazendaCena2</SceneImage>
+    </Scene>
+    
 	</Scenes>
 </ScenesCollection>
